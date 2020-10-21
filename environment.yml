@@ -1,0 +1,15 @@
+name: outlook-scraper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - python-dateutil
+  - pytz
+  - pywin32
+  - six
+  - pip:
+    - PyQt5
+    - PyQt5-sip
